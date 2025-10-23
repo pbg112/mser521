@@ -1,0 +1,49 @@
+body {
+    font-family: "Papyrus", "Copperplate", "Impact", fantasy;
+}
+
+header {
+    background-color: rgb(188, 150, 207);
+    padding: 22px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    background-color: #a6a0a0;
+    padding: 50px
+}
+section {
+background-color: white;
+border: solid 1px #ccc;
+
+}
+img {
+    width: 100%;
+}
+section p {
+    text-align: center;
+    padding-bottom: 20px;
+    border: solid 1px
+    transition: all 0.5s;
+}
+section:hover {
+    background-color: hotpink;
+    opacity: 1;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate */
+    transform: rotate(5deg);
+
+
+}
+
+@media screen and (max-width: 600px){
+    /* when the screen is less than 600px hot pinl that header */
+    header {
+        background-color: rgb(30, 104, 110);
+        padding: 22px;
+    }
+    main {
+    
+        grid-template-columns: 1fr;
+      
+}
