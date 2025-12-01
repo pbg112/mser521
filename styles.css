@@ -1,3 +1,10 @@
 body{
-    background-color: rgb(155, 113, 134);
+    font-family: fantasy;
+    background-color:rgb(214, 144, 201);
+    color: rgb(68, 18, 114);
+}
+
+h1 {
+    background-color: hotpink;
+    
 }

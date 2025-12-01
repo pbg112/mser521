@@ -1,0 +1,43 @@
+#section-5 {
+  background-image: url(../images/section-5-bkg.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding-top: 20vw;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.heading-1.mega {
+  color: rgb(1, 0, 0);
+  font-size: 3rem;
+}
+
+#section-5 .container {
+  display: grid;
+  grid-template-columns:1fr;
+  gap: 2rem;
+  align-items: flex-end;
+  border-bottom: 1px solid white;
+}
+
+.cards {
+  display: grid;
+  gap: 80px;
+  padding-bottom: 60px;
+}
+/* TODO: Add responsive CSS here */
+@media screen and (max-width: 1024px) {
+  #heading-4{
+    font-size: 3rem;
+  }
+  /* TODO: Add the remaining responsive styles for 1024px and 768px here */
+  }
+  @media screen and (max-width: 768px) {
+    #heading-4{
+      font-size: 4rem;
+    }
+  }
+/* TODO: Add responsive CSS here */

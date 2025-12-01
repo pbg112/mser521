@@ -22,6 +22,11 @@ function makeOrange () {
     section4El.style.backgroundColor = "Orange" ;
 }
 
+function changeBackground(selector,color) {
+    let EL = document.querySelector(selector)
+    EL.style.backgroundColor = color;
+}
+
 function reset () {
     let section1El = document.querySelector("#section1")
     section1El.style.backgroundColor = "white" ;
